@@ -1,0 +1,37 @@
+{
+  "name": "goldenretriever",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "gore": "index.js"
+  },
+  "scripts": {
+    "env": "env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nedb": "^1.8.0",
+    "open": "^8.4.0",
+    "shelljs": "^0.8.4",
+    "yargs": "^17.3.0"
+  },
+  "devDependencies": {},
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [],
+    "parserOptions": {},
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
