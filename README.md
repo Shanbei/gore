@@ -1,11 +1,17 @@
-# 先执行npm link
+# npm install gore-dog -g
+# add url
+> gore --save "https://github.com/search?q={github}"  
+> gore -s "https://github.com/search?q={github}"
+# open url
+> gore github gore
+> auto open: https://github.com/search?q=gore
+# view list
+> gore --list  [,string]
+> gore -l [,string]
 
-# 添加链接
-> 执行 gore --save "https://github.com/search?q={github}"  
-> 或: gore -s "https://github.com/search?q={github}"
+# delect url
+> gore --remove github
+> gore -s github
 
-# 打开链接
-> 执行gore github gore
->> 上放会用默认浏览器自动打开 https://github.com/search?q=gore
-
-#### 开始网上冲浪吧
+#### start surfing the web/开始网上冲浪吧
+thanks for using
